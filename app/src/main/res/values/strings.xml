@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">海豚邦</string>
+    <string name="text_information_basic_title">请输入基本信息</string>
+    <string name="text_information_basic_company_name_title">公司名称：</string>
+    <string name="text_information_basic_company_year_title">公司成立年份：</string>
+    <string name="text_information_basic_founder_name_title">创始人姓名：</string>
+    <string name="text_information_basic_founder_age_title">创始人年龄：</string>
+    <string name="text_information_basic_founder_age_hint">该公司创立时，创始人的年龄</string>
+    <string name="text_information_basic_founder_degree_title">创始人的最高学位：</string>
+
+    <string-array name="text_information_basic_founder_degree_choices">
+        <item>博士及以上</item>
+        <item>研究生</item>
+        <item>本科</item>
+        <item>其它</item>
+    </string-array>
+
+    <string name="text_information_basic_founder_school_title">创始人所在学校情况：</string>
+
+    <string-array name="text_information_basic_founder_school_choices">
+        <item>国内：985、211院校</item>
+        <item>国际：全球TOP200院校</item>
+        <item>其它</item>
+    </string-array>
+
+    <string name="text_information_basic_founder_entrepreneurship_times_title">创业者之前的创业次数：</string>
+    <string name="text_information_basic_founder_industry_experiences_title">创始人行业经验（年限）：</string>
+    <string name="text_information_basic_founder_industry_experiences_hint">截止到公司创立时</string>
+
+
+    <string name="button_next">下一步</string>
+</resources>
