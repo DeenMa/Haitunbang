@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".activities.InformationBasicActivity"/>
         <activity android:name=".activities.InformationCofounderActivity"/>
+        <activity android:name=".activities.InformationMarketingAndFundingActivity"/>
 
     </application>
 

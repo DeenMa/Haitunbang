@@ -1,20 +1,18 @@
 package com.example.drma1.haitunbang.activities;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import com.example.drma1.haitunbang.ApplicationHaitunbang;
 import com.example.drma1.haitunbang.R;
-import com.example.drma1.haitunbang.Utilities;
+
+import static com.example.drma1.haitunbang.Utilities.writeEditTextIntoStorage;
 
 public class InformationBasicActivity extends Activity {
 
@@ -31,12 +29,12 @@ public class InformationBasicActivity extends Activity {
         button_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (Utilities.writeEditTextIntoStorage(activity, R.id.text_information_basic_company_name_edit)
-                        && Utilities.writeEditTextIntoStorage(activity, R.id.text_information_basic_company_year_edit)
-                        && Utilities.writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_name_edit)
-                        && Utilities.writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_age_edit)
-                        && Utilities.writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_entrepreneurship_times_edit)
-                        && Utilities.writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_industry_experiences_edit)) {
+                if (writeEditTextIntoStorage(activity, R.id.text_information_basic_company_name_edit, "text")
+                        && writeEditTextIntoStorage(activity, R.id.text_information_basic_company_year_edit, "number")
+                        && writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_name_edit, "text")
+                        && writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_age_edit, "number")
+                        && writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_entrepreneurship_times_edit, "number")
+                        && writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_industry_experiences_edit, "number")) {
                     Intent intent = new Intent(activity, InformationCofounderActivity.class);
                     startActivity(intent);
                 }

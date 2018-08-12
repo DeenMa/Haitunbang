@@ -27,6 +27,17 @@
     <string name="text_information_basic_founder_industry_experiences_title">创始人行业经验（年限）：</string>
     <string name="text_information_basic_founder_industry_experiences_hint">截止到公司创立时</string>
 
+    <string name="text_information_cofounder_title">请输入联合创始人们的信息</string>
+    <string name="text_information_cofounder_team_size_initial_title">团队初创时的创始人个数：</string>
+    <string name="text_information_cofounder_team_size_current_title">当前仍然在团队中的创始人个数：</string>
+    <string name="text_information_cofounder_gender_investigate_title">当前团队中男性、女性成员的个数：</string>
+    <string name="text_information_cofounder_team_role_title">当前团队中，是否有如下角色的成员：</string>
+
+    <string name="text_information_cofounder_cofounder_team_role_product">产品</string>
+    <string name="text_information_cofounder_cofounder_team_role_finance">财务</string>
+    <string name="text_information_cofounder_cofounder_team_role_operation">运营</string>
+    <string name="text_information_cofounder_cofounder_team_role_marketing">市场</string>
+    <string name="text_information_cofounder_cofounder_team_role_technology">技术</string>
 
     <string name="button_next">下一步</string>
 </resources>
