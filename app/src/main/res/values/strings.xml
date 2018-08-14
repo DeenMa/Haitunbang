@@ -59,7 +59,21 @@
     <string name="text_information_marketing_and_funding_financing_rounds">公司融资轮数</string>
     <string name="text_information_marketing_and_funding_financing_amount">公司融资数目</string>
 
+    <string name="text_information_uniqueness_title">公司原创性</string>
+    <string name="text_information_uniqueness_technology_innovation">公司是否有技术创新？</string>
+    <string name="text_information_uniqueness_patents_and_logo_registration_hint">公司注册了多少知识产权和商标？</string>
+    <string name="text_information_uniqueness_business_mode_innovation">公司有无商业模式创新？</string>
+    <string name="text_information_uniqueness_marketing_recognition">公司营销是否能得到消费者认可？</string>
+    <string name="text_information_uniqueness_government_support">是否得到政府的支持？</string>
+    <string name="text_information_uniqueness_community_campus_support">是否得到社区及高校的支持？</string>
+
+    <string name="text_calculating_title">正在计算中……</string>
+
+    <string name="text_result_title">测试结果：</string>
+    <string name="text_result_details">您创业成功的概率：60%\n团队构成：75分；\n市场拓展：53分；\n资金状况：46分；\n创新性：66分。\n优势：\n1. 团队成员搭建齐全并稳定；\n2. 拥有技术独创性。\n缺点：\n1. 市场太过局限；\n2. 当前现金流是个隐患。</string>
+
     <string name="button_add">添加</string>
     <string name="button_delete">删除</string>
     <string name="button_next">下一步</string>
+    <string name="button_close">完成</string>
 </resources>

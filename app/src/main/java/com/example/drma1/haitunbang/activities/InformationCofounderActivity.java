@@ -34,6 +34,7 @@ public class InformationCofounderActivity extends Activity {
 
                     Intent intent = new Intent(activity, InformationMarketingAndFundingActivity.class);
                     startActivity(intent);
+                    activity.finish();
                 }
             }
         });

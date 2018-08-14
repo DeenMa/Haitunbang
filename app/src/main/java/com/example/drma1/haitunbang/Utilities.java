@@ -7,6 +7,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Utilities {
+    public static final Integer DELAY_ACTIVITY = 3000;
+
     public static boolean writeEditTextIntoStorage(Activity activity, int viewId, String screeningCriteria) {
         EditText editText = activity.findViewById(viewId);
         String string = editText.getText().toString();
@@ -62,6 +64,10 @@ public class Utilities {
                 ApplicationHaitunbang.AppData.genderInvestigateFemale = string;
                 break;
             }
+            case R.id.text_information_uniqueness_patents_and_logo_registration_edit: {
+                ApplicationHaitunbang.AppData.patentsAndLogoRegistration = string;
+                break;
+            }
         }
         return true;
     }
@@ -109,43 +115,43 @@ public class Utilities {
         CheckBox checkBox = (CheckBox) view;
         switch (viewId) {
             case R.id.checkbox_information_cofounder_team_role_product: {
-                if (checkBox.isChecked()) {
-                    ApplicationHaitunbang.AppData.teamRoleProduct = "true";
-                } else {
-                    ApplicationHaitunbang.AppData.teamRoleProduct = "false";
-                }
+                ApplicationHaitunbang.AppData.teamRoleProduct = checkBox.isChecked() ? "true" : "false";
                 break;
             }
             case R.id.checkbox_information_cofounder_team_role_finance: {
-                if (checkBox.isChecked()) {
-                    ApplicationHaitunbang.AppData.teamRoleFinance = "true";
-                } else {
-                    ApplicationHaitunbang.AppData.teamRoleFinance = "false";
-                }
+                ApplicationHaitunbang.AppData.teamRoleFinance = checkBox.isChecked() ? "true" : "false";
                 break;
             }
             case R.id.checkbox_information_cofounder_team_role_operation: {
-                if (checkBox.isChecked()) {
-                    ApplicationHaitunbang.AppData.teamRoleOperation = "true";
-                } else {
-                    ApplicationHaitunbang.AppData.teamRoleOperation = "false";
-                }
+                ApplicationHaitunbang.AppData.teamRoleOperation = checkBox.isChecked() ? "true" : "false";
                 break;
             }
             case R.id.checkbox_information_cofounder_team_role_marketing: {
-                if (checkBox.isChecked()) {
-                    ApplicationHaitunbang.AppData.teamRoleMarketing = "true";
-                } else {
-                    ApplicationHaitunbang.AppData.teamRoleMarketing = "false";
-                }
+                ApplicationHaitunbang.AppData.teamRoleMarketing = checkBox.isChecked() ? "true" : "false";
                 break;
             }
             case R.id.checkbox_information_cofounder_team_role_technology: {
-                if (checkBox.isChecked()) {
-                    ApplicationHaitunbang.AppData.teamRoleTechnology = "true";
-                } else {
-                    ApplicationHaitunbang.AppData.teamRoleTechnology = "false";
-                }
+                ApplicationHaitunbang.AppData.teamRoleTechnology = checkBox.isChecked() ? "true" : "false";
+                break;
+            }
+            case R.id.checkbox_information_uniqueness_technology_innovation: {
+                ApplicationHaitunbang.AppData.technologyInnovation = checkBox.isChecked() ? "true" : "false";
+                break;
+            }
+            case R.id.checkbox_information_uniqueness_business_mode_innovation: {
+                ApplicationHaitunbang.AppData.businessModeInnovation = checkBox.isChecked() ? "true" : "false";
+                break;
+            }
+            case R.id.checkbox_information_uniqueness_marketing_recognition: {
+                ApplicationHaitunbang.AppData.marketingRecognition = checkBox.isChecked() ? "true" : "false";
+                break;
+            }
+            case R.id.checkbox_information_uniqueness_government_support: {
+                ApplicationHaitunbang.AppData.governmentSupport = checkBox.isChecked() ? "true" : "false";
+                break;
+            }
+            case R.id.checkbox_information_uniqueness_community_campus_support: {
+                ApplicationHaitunbang.AppData.communityCampusSupport = checkBox.isChecked() ? "true" : "false";
                 break;
             }
         }

@@ -19,6 +19,8 @@
         <activity android:name=".activities.InformationCofounderActivity"/>
         <activity android:name=".activities.InformationMarketingAndFundingActivity"/>
         <activity android:name=".activities.InformationUniquenessActivity"/>
+        <activity android:name=".activities.CalculatingActivity"/>
+        <activity android:name=".activities.ResultActivity"/>
 
     </application>
 

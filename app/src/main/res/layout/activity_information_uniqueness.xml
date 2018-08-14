@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_information_uniqueness_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/text_information_uniqueness_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox_information_uniqueness_technology_innovation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_information_uniqueness_technology_innovation" />
+
+        <EditText
+            android:id="@+id/text_information_uniqueness_patents_and_logo_registration_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_information_uniqueness_patents_and_logo_registration_hint"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_information_uniqueness_business_mode_innovation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_information_uniqueness_business_mode_innovation" />
+
+        <CheckBox
+            android:id="@+id/checkbox_information_uniqueness_marketing_recognition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_information_uniqueness_marketing_recognition" />
+
+        <CheckBox
+            android:id="@+id/checkbox_information_uniqueness_government_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_information_uniqueness_government_support" />
+
+        <CheckBox
+            android:id="@+id/checkbox_information_uniqueness_community_campus_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_information_uniqueness_community_campus_support" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_information_uniqueness_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next"
+        android:textColor="@color/white"
+        android:background="@color/blue" />
+</LinearLayout>

@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.example.drma1.haitunbang.ApplicationHaitunbang;
 import com.example.drma1.haitunbang.ApplicationHaitunbang.AppData.MarketingAndFundingAnnuallyInfo;
 import com.example.drma1.haitunbang.R;
 import com.example.drma1.haitunbang.views.LabeledCheckBox;
@@ -17,7 +16,6 @@ import java.util.ArrayList;
 
 import static com.example.drma1.haitunbang.ApplicationHaitunbang.AppData.marketingAndFundingAnnuallyInfoList;
 import static com.example.drma1.haitunbang.Utilities.checkLabeledEditText;
-import static com.example.drma1.haitunbang.Utilities.writeEditTextIntoStorage;
 
 public class InformationMarketingAndFundingActivity extends Activity {
     @Override
@@ -171,9 +169,28 @@ public class InformationMarketingAndFundingActivity extends Activity {
                 if (writeSucceed) {
                     Intent intent = new Intent(activity, InformationUniquenessActivity.class);
                     startActivity(intent);
+                    activity.finish();
                 }
             }
         });
+    }
+
+    @Override
+    protected void onStart() {
+        if (marketingAndFundingAnnuallyInfoList == null) {
+            marketingAndFundingAnnuallyInfoList = new ArrayList<>();
+        }
+        marketingAndFundingAnnuallyInfoList.clear();
+        super.onStart();
+    }
+
+    @Override
+    protected void onRestart() {
+        if (marketingAndFundingAnnuallyInfoList == null) {
+            marketingAndFundingAnnuallyInfoList = new ArrayList<>();
+        }
+        marketingAndFundingAnnuallyInfoList.clear();
+        super.onRestart();
     }
 
     private void addAnnualInformationMarketingAndFundingLayout(LinearLayout parent) {

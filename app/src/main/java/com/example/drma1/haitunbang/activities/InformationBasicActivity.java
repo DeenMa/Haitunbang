@@ -37,6 +37,7 @@ public class InformationBasicActivity extends Activity {
                         && writeEditTextIntoStorage(activity, R.id.text_information_basic_founder_industry_experiences_edit, "number")) {
                     Intent intent = new Intent(activity, InformationCofounderActivity.class);
                     startActivity(intent);
+                    activity.finish();
                 }
             }
         });
