@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/text_information_marketing_and_funding_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/text_information_marketing_and_funding_title"/>
+
+    <Button
+        android:id="@+id/button_information_marketing_and_funding_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view_information_marketing_and_funding"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_information_marketing_and_funding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Dynamically added layouts are displayed here -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_information_marketing_and_funding_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next"
+        android:textColor="@color/white"
+        android:background="@color/blue" />
+</LinearLayout>

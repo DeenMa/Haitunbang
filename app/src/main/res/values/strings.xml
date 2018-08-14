@@ -39,5 +39,27 @@
     <string name="text_information_cofounder_cofounder_team_role_marketing">市场</string>
     <string name="text_information_cofounder_cofounder_team_role_technology">技术</string>
 
+    <string name="text_information_marketing_and_funding_title">请按照年份输入公司的市场和资金状况</string>
+    <string name="text_information_marketing_and_funding_current_year">当前年份</string>
+    <string name="text_information_marketing_and_funding_market_scale_hint">市场规模（亿元）</string>
+    <string name="text_information_marketing_and_funding_increase_rate_hint">增长规模（百分比）</string>
+    <string name="text_information_marketing_and_funding_registered_users_hint">注册用户量（万人）</string>
+    <string name="text_information_marketing_and_funding_market_rate_hint">产品所占市场比例（百分比）</string>
+    <string name="text_information_marketing_and_funding_city_top_tier">产品在一线城市投放</string>
+    <string name="text_information_marketing_and_funding_city_second_tier">产品在二三线城市投放</string>
+    <string name="text_information_marketing_and_funding_bike_population_rate_hint">投放单车数量除以投放城市人口（百分比）</string>
+    <string name="text_information_marketing_and_funding_registered_fund">注册资金（万元）</string>
+    <string name="text_information_marketing_and_funding_invested_companies">公司对外投资数量</string>
+    <string name="text_information_marketing_and_funding_invested_amount">公司对外投资金额（万元）</string>
+    <string name="text_information_marketing_and_funding_founder_stock_share">创始人股权</string>
+    <string name="text_information_marketing_and_funding_monthly_profit">公司平均月盈利</string>
+    <string name="text_information_marketing_and_funding_invested_by_bat">公司被BAT投资</string>
+    <string name="text_information_marketing_and_funding_invested_by_large_agencies">公司被大型机构投资</string>
+    <string name="text_information_marketing_and_funding_invested_by_small_agencies">公司被中小型机构投资</string>
+    <string name="text_information_marketing_and_funding_financing_rounds">公司融资轮数</string>
+    <string name="text_information_marketing_and_funding_financing_amount">公司融资数目</string>
+
+    <string name="button_add">添加</string>
+    <string name="button_delete">删除</string>
     <string name="button_next">下一步</string>
 </resources>

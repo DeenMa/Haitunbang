@@ -15,12 +15,9 @@ public class Utilities {
             return false;
         }
         if ("number".equals(screeningCriteria)) {
-            for (int i = 0; i < string.length(); i++) {
-                char curChar = string.charAt(i);
-                if (!(curChar >= '0' && curChar <= '9')) {
-                    Toast.makeText(activity, "请填入数字！", Toast.LENGTH_SHORT).show();
-                    return false;
-                }
+            if (!checkNumeric(string)) {
+                Toast.makeText(activity, "请填入数字！", Toast.LENGTH_SHORT).show();
+                return false;
             }
         }
 
@@ -63,6 +60,40 @@ public class Utilities {
             }
             case R.id.text_information_cofounder_gender_investigate_female_edit: {
                 ApplicationHaitunbang.AppData.genderInvestigateFemale = string;
+                break;
+            }
+        }
+        return true;
+    }
+
+
+    public static boolean checkLabeledEditText(Activity activity, String string, String screeningCriteria) {
+        if (isNullOrEmpty(string)) {
+            Toast.makeText(activity, "请检查所有必选项是否已经输入", Toast.LENGTH_SHORT).show();
+            return false;
+        }
+
+        switch (screeningCriteria) {
+            case ("number"): {
+                if (!checkNumeric(string)) {
+                    Toast.makeText(activity, "请填入数字！", Toast.LENGTH_SHORT).show();
+                    return false;
+                }
+                break;
+            }
+            // allow number, and also allow a dot and some numbers behind
+            case ("decimals"): {
+                if (!checkDecimals(string)) {
+                    Toast.makeText(activity, "请填入实数！", Toast.LENGTH_SHORT).show();
+                    return false;
+                }
+                break;
+            }
+            case ("percentage") : {
+                if (!checkPercentage(string)) {
+                    Toast.makeText(activity, "请填入百分比！", Toast.LENGTH_SHORT).show();
+                    return false;
+                }
                 break;
             }
         }
@@ -116,6 +147,49 @@ public class Utilities {
                     ApplicationHaitunbang.AppData.teamRoleTechnology = "false";
                 }
                 break;
+            }
+        }
+        return true;
+    }
+
+    private static boolean checkPercentage(String input) {
+        if (input.charAt(input.length() - 1) == '%') {
+            return input.length() != 1 && checkDecimals(input.substring(0, input.length() - 1));
+        }
+        return checkDecimals(input);
+    }
+
+    private static boolean checkDecimals(String input) {
+        int dotPosition = -1;
+        for (int i = 0; i < input.length(); i++) {
+            if (input.charAt(i) == '.') {
+                dotPosition = i;
+                break;
+            }
+        }
+        // dotPosition cannot be at the last index
+        if (dotPosition == input.length() - 1) {
+            return false;
+        }
+        // if there is no dot, make sure whole string is a number
+        if (dotPosition == -1) {
+            if (!checkNumeric(input)) {
+                return false;
+            }
+            return true;
+        }
+        // if there is a dot, make sure the front and back part are all numbers
+        if (!checkNumeric(input.substring(0, dotPosition)) || checkNumeric(input.substring(dotPosition + 1))) {
+            return false;
+        }
+        return true;
+    }
+
+    private static boolean checkNumeric(String input) {
+        for (int i = 0; i < input.length(); i++) {
+            char curChar = input.charAt(i);
+            if (!(curChar >= '0' && curChar <= '9')) {
+                return false;
             }
         }
         return true;

@@ -27,10 +27,10 @@ public class InformationCofounderActivity extends Activity {
                     && writeEditTextIntoStorage(activity, R.id.text_information_cofounder_gender_investigate_male_edit, "number")
                     && writeEditTextIntoStorage(activity, R.id.text_information_cofounder_gender_investigate_female_edit, "number")) {
                     writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_product);
-                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_product);
-                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_product);
-                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_product);
-                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_product);
+                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_finance);
+                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_operation);
+                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_marketing);
+                    writeCheckboxIntoStorage(activity, R.id.checkbox_information_cofounder_team_role_technology);
 
                     Intent intent = new Intent(activity, InformationMarketingAndFundingActivity.class);
                     startActivity(intent);
