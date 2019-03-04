@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(ctx, InformationBasicActivity.class);
+                Intent intent = new Intent(ctx, InformationActivity.class);
                 startActivity(intent);
                 ctx.finish();
             }

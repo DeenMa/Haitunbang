@@ -1,5 +1,109 @@
 <resources>
     <string name="app_name">海豚邦</string>
+
+    <string name="text_information_title">请输入基本信息</string>
+    <string name="text_information_age_title">您的年龄</string>
+    <string name="text_information_gender_title">您的性别</string>
+    <string name="text_information_province_title">您所在的省份</string>
+    <string name="text_information_social_security_title">您有无社保？</string>
+    <string name="text_information_monthly_income_title">您的月收入？</string>
+    <string name="text_information_industry_title">您所在的行业？</string>
+    <string name="text_information_history_title">您是否得过重大疾病或者潜在家族遗传病？</string>
+    <string name="text_information_family_status_title">您的配偶或者孩子情况？</string>
+
+    <string-array name="text_information_gender_choices">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="text_information_province_choices">
+        <item>北京市</item>
+        <item>天津市</item>
+        <item>上海市</item>
+        <item>重庆市</item>
+        <item>河北省</item>
+        <item>山西省</item>
+        <item>辽宁省</item>
+        <item>吉林省</item>
+        <item>黑龙江省</item>
+        <item>江苏省</item>
+        <item>浙江省</item>
+        <item>安徽省</item>
+        <item>福建省</item>
+        <item>江西省</item>
+        <item>山东省</item>
+        <item>河南省</item>
+        <item>湖北省</item>
+        <item>湖南省</item>
+        <item>广东省</item>
+        <item>海南省</item>
+        <item>四川省</item>
+        <item>贵州省</item>
+        <item>云南省</item>
+        <item>陕西省</item>
+        <item>甘肃省</item>
+        <item>台湾省</item>
+        <item>内蒙古自治区</item>
+        <item>广西壮族自治区</item>
+        <item>西藏自治区</item>
+        <item>宁夏回族自治区</item>
+        <item>新疆维吾尔自治区</item>
+        <item>香港特别行政区</item>
+        <item>澳门特别行政区</item>
+    </string-array>
+
+    <string-array name="text_information_social_security_choices">
+        <item>有</item>
+        <item>无</item>
+    </string-array>
+
+    <string-array name="text_information_monthly_income_choices">
+        <item>1.4k~3k</item>
+        <item>3k~5k</item>
+        <item>5k~10k</item>
+    </string-array>
+
+    <string-array name="text_information_industry_choices">
+        <item>A 农、林、牧、渔业</item>
+        <item>B 采矿业</item>
+        <item>C 制造业</item>
+        <item>D 电力、热力、燃气及水生产和供应业</item>
+        <item>E 建筑业</item>
+        <item>F 批发和零售业</item>
+        <item>G 交通运输、仓储和邮政业</item>
+        <item>H 住宿和餐饮业</item>
+        <item>I 信息传输、软件和信息技术服务业</item>
+        <item>J 金融业</item>
+        <item>K 房地产业</item>
+        <item>L 租赁和商务服务业</item>
+        <item>M 科学研究和技术服务业</item>
+        <item>N 水利、环境和公共设施管理业</item>
+        <item>O 居民服务、修理和其他服务业</item>
+        <item>P 教育</item>
+        <item>Q 卫生和社会工作</item>
+        <item>R 文化、体育和娱乐业</item>
+        <item>S 公共管理、社会保障和社会组织</item>
+        <item>T 国际组织</item>
+        <item>U 其他</item>
+    </string-array>
+
+    <string-array name="text_information_history_choices">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+
+    <string-array name="text_information_family_status_choices">
+        <item>无配偶无孩子</item>
+        <item>无配偶有孩子</item>
+        <item>有配偶无孩子</item>
+        <item>有配偶有孩子</item>
+    </string-array>
+
+    <string name="text_result_title">推荐方案：</string>
+    <string name="text_result_details_1">经济方案1：\n\n1) 百年人寿定期重疾险康惠保：保额30万，30年缴费，保至70周岁，年缴960元；\n2) 横琴人寿定期寿险优爱宝：保额30W，20年缴费，保至60周岁，年缴384元；\n3) 安联保险百万玫瑰女性意外身故：100万保额，意外医疗3万，免赔额500元，299元一年；\n4) 众安保险尊享e生2017百万医疗险：保额300万，1万免赔，226元一年。\n\n年缴合计：1869元\n\n投保思路：因为A小姐为在校学生年纪尚浅，暂未有经济负担和经济基础。终身型重疾险价格相对高昂，在考虑保险为金融消费品情况下。所以选择投保定期寿险和定期重疾险\n不足之处：保障年龄到60周岁，日后仍需加保终身型重疾</string>
+    <string name="text_result_details_2">快捷方案2：\n\n1) 华夏保险华夏福多倍（终身）多次赔付保额：30万\n附加险：医保通（质子重离子）+投保人轻重征豁免+住院医疗+安联意外险100万，年缴299元\n\n年缴合计：5928.79元\n\n投保思路 ：A女士有稳定经济收入来源，希望A小姐有一份保障之余。晚年可以存有一笔养老金，所以选择终身型重疾。A女士重疾或身故则无需再缴交保费，此外医保通在产品不停售前提下，保险公司不会因被保人身体情况而停止续保。\n不足之处：价格相对定期险种较贵，随着通货膨胀保额日后应相应增加。</string>
+    <string name="text_result_details_3">性价比方案3：\n\n1) 华夏保险华夏福多倍（终身）保额20万，附加险：医保通（质子重离子）+投保人轻重征豁免+住院医疗，共3853.73元；\n2) 百年人寿定期重疾险康惠保：保额30万，30年缴费，保至70周岁，年缴960元；3) 横琴人寿定期寿险优爱宝：保额30万，20年缴费，保至60周岁，年缴384元；4) 安联意外险：100万，年缴299元。\n\n年缴合计：5496.73元\n\n投保思路    ：因为被保人 A小姐年纪尚浅，故选择定期寿险、重疾搭配终身型险种。年缴费相对较少之余，A小姐最少有50W重疾保障、60W身故保障。晚年亦可保有一笔养老金，除此之外因保险产品推陈出新，日后可将定期险种 置换为新型终身产品。</string>
+
     <string name="text_information_basic_title">请输入基本信息</string>
     <string name="text_information_basic_company_name_title">公司名称：</string>
     <string name="text_information_basic_company_year_title">公司成立年份：</string>
@@ -68,9 +172,7 @@
     <string name="text_information_uniqueness_community_campus_support">是否得到社区及高校的支持？</string>
 
     <string name="text_calculating_title">正在计算中……</string>
-
-    <string name="text_result_title">测试结果：</string>
-    <string name="text_result_details">您创业成功的概率：60%\n团队构成：75分；\n市场拓展：53分；\n资金状况：46分；\n创新性：66分。\n优势：\n1. 团队成员搭建齐全并稳定；\n2. 拥有技术独创性。\n缺点：\n1. 市场太过局限；\n2. 当前现金流是个隐患。</string>
+    <string name="text_result_details">正在计算中……</string>
 
     <string name="button_add">添加</string>
     <string name="button_delete">删除</string>
