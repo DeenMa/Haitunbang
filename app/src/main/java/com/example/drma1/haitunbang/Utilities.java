@@ -24,6 +24,23 @@ public class Utilities {
         }
 
         switch (viewId) {
+            case R.id.text_information_citizenship_edit: {
+                ApplicationHaitunbang.AppData.citizenship = string;
+                break;
+            }
+            case R.id.text_information_height_edit: {
+                ApplicationHaitunbang.AppData.height = string;
+                break;
+            }
+            case R.id.text_information_weight_edit: {
+                ApplicationHaitunbang.AppData.weight = string;
+                break;
+            }
+            case R.id.text_information_family_number_edit: {
+                ApplicationHaitunbang.AppData.familyNumber = string;
+                break;
+            }
+
             case R.id.text_information_basic_company_name_edit: {
                 ApplicationHaitunbang.AppData.companyName = string;
                 break;

@@ -33,14 +33,20 @@ import static com.example.drma1.haitunbang.ApplicationHaitunbang.AppData.technol
 public class ApplicationHaitunbang extends Application {
     public static class AppData {
         // insurance
-        public static String age;
+        public static String birthYear;
+        public static String birthMonth;
+        public static String citizenship;
         public static String gender;
+        public static String height;
+        public static String weight;
         public static String province;
-        public static String socialSecurity;
-        public static String monthlyIncome;
+        public static String city;
         public static String industry;
-        public static String history;
-        public static String familyStatus;
+        public static String level;
+        public static String educationLevel;
+        public static String maritalStatus;
+        public static String familyNumber;
+        public static String monthlyIncome;
 
         // sharedbikes
         public static class MarketingAndFundingAnnuallyInfo {

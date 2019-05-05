@@ -2,14 +2,52 @@
     <string name="app_name">海豚邦</string>
 
     <string name="text_information_title">请输入基本信息</string>
-    <string name="text_information_age_title">您的年龄</string>
+    <string name="text_information_birthday_title">您的出生年月？</string>
+    <string name="text_information_birth_year_title">年</string>
+    <string name="text_information_birth_month_title">月</string>
+    <string name="text_information_citizenship_title">您的国籍？</string>
     <string name="text_information_gender_title">您的性别</string>
-    <string name="text_information_province_title">您所在的省份</string>
-    <string name="text_information_social_security_title">您有无社保？</string>
-    <string name="text_information_monthly_income_title">您的月收入？</string>
+    <string name="text_information_height_title">您的身高？</string>
+    <string name="text_information_weight_title">您的体重？</string>
+    <string name="text_information_province_title">您所在的省份？</string>
+    <string name="text_information_city_title">您所在的城市？</string>
     <string name="text_information_industry_title">您所在的行业？</string>
+    <string name="text_information_level_title">职务</string>
+    <string name="text_information_education_level_title">受教育程度？</string>
+    <string name="text_information_marital_status_title">婚姻状况？</string>
+    <string name="text_information_family_number_title">家庭成员数量（如未婚请按与父母为一个单位计算）</string>
+    <string name="text_information_monthly_income_title">投保人月收入区间？</string>
+
     <string name="text_information_history_title">您是否得过重大疾病或者潜在家族遗传病？</string>
     <string name="text_information_family_status_title">您的配偶或者孩子情况？</string>
+
+    <string-array name="text_information_birth_year_choices">
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+    </string-array>
+
+    <string-array name="text_information_birth_month_choices">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
 
     <string-array name="text_information_gender_choices">
         <item>男</item>
@@ -52,15 +90,53 @@
         <item>澳门特别行政区</item>
     </string-array>
 
-    <string-array name="text_information_social_security_choices">
-        <item>有</item>
-        <item>无</item>
-    </string-array>
-
-    <string-array name="text_information_monthly_income_choices">
-        <item>1.4k~3k</item>
-        <item>3k~5k</item>
-        <item>5k~10k</item>
+    <string-array name="text_information_city_choices">
+        <item>广州市</item>
+        <item>深圳市</item>
+        <item>珠海市</item>
+        <item>汕头市</item>
+        <item>佛山市</item>
+        <item>韶关市</item>
+        <item>湛江市</item>
+        <item>肇庆市</item>
+        <item>江门市</item>
+        <item>茂名市</item>
+        <item>惠州市</item>
+        <item>梅州市</item>
+        <item>汕尾市</item>
+        <item>河源市</item>
+        <item>阳江市</item>
+        <item>清远市</item>
+        <item>东莞市</item>
+        <item>中山市</item>
+        <item>潮州市</item>
+        <item>揭阳市</item>
+        <item>云浮市</item>
+        <item>增城市</item>
+        <item>从化市</item>
+        <item>南雄市</item>
+        <item>乐昌市</item>
+        <item>英德市</item>
+        <item>连州市</item>
+        <item>台山市</item>
+        <item>开平市</item>
+        <item>鹤山市</item>
+        <item>恩平市</item>
+        <item>恩平市</item>
+        <item>恩平市</item>
+        <item>廉江市</item>
+        <item>雷州市</item>
+        <item>吴川市</item>
+        <item>高州市</item>
+        <item>化州市</item>
+        <item>信宜市</item>
+        <item>高要市</item>
+        <item>四会市</item>
+        <item>兴宁市</item>
+        <item>陆丰市</item>
+        <item>阳春市</item>
+        <item>普宁市</item>
+        <item>罗定市</item>
     </string-array>
 
     <string-array name="text_information_industry_choices">
@@ -87,16 +163,30 @@
         <item>U 其他</item>
     </string-array>
 
-    <string-array name="text_information_history_choices">
-        <item>是</item>
-        <item>否</item>
+    <string-array name="text_information_level_choices">
+        <item>无工作</item>
+        <item>中底层</item>
+        <item>中层</item>
+        <item>高层</item>
     </string-array>
 
-    <string-array name="text_information_family_status_choices">
-        <item>无配偶无孩子</item>
-        <item>无配偶有孩子</item>
-        <item>有配偶无孩子</item>
-        <item>有配偶有孩子</item>
+    <string-array name="text_information_education_level_choices">
+        <item>小学</item>
+        <item>中学</item>
+        <item>大专或以上</item>
+    </string-array>
+
+    <string-array name="text_information_marital_status_choices">
+        <item>未婚</item>
+        <item>已婚</item>
+        <item>丧偶</item>
+        <item>离异</item>
+    </string-array>
+
+    <string-array name="text_information_monthly_income_choices">
+        <item>1.4k~3k</item>
+        <item>3k~5k</item>
+        <item>5k~10k</item>
     </string-array>
 
     <string name="text_result_title">推荐方案：</string>
