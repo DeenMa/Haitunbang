@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">海豚邦</string>
 
-    <string name="text_information_title">请输入基本信息</string>
+    <string name="text_information_title">被保人信息</string>
     <string name="text_information_birthday_title">您的出生年月？</string>
     <string name="text_information_birth_year_title">年</string>
     <string name="text_information_birth_month_title">月</string>
@@ -18,8 +18,17 @@
     <string name="text_information_family_number_title">家庭成员数量（如未婚请按与父母为一个单位计算）</string>
     <string name="text_information_monthly_income_title">投保人月收入区间？</string>
 
-    <string name="text_information_history_title">您是否得过重大疾病或者潜在家族遗传病？</string>
-    <string name="text_information_family_status_title">您的配偶或者孩子情况？</string>
+    <string name="text_informationii_title">受保人健康问卷</string>
+    <string name="text_informationii_smoking_title">您是否吸烟？若是，请说明每天吸烟数量</string>
+    <string name="text_informationii_accident_illness_title">在过去五年内，你曾否遭遇意外或疾病？</string>
+    <string name="text_informationii_medical_treatment_title">在过去一年内，是否遭遇意外或患疾病，以致需要接受医疗或药物治疗超过14天以上？</string>
+    <string name="text_informationii_surgery_title">是否在医院或诊所接受任何大型手术？</string>
+    <string name="text_informationii_pregnancy_title">目前是否怀孕？（12岁以上女性填）</string>
+    <string name="text_informationii_optional_title">选填部分：</string>
+    <string name="text_informationii_blood_illness_title">您的直系亲属曾否患有血液疾病，肝病，心脏病，肾病（例如：多囊性肾病），中风，糖尿病，高血压，癌症，爱滋病或遗传性疾病？</string>
+    <string name="text_informationii_muscle_illness_title">肌肉和骨骼系统或皮肤有关的疾病，如：关节炎，风湿病，痛风，坐骨神经痛，或其他骨骼及脊椎的问题？</string>
+    <string name="text_informationii_neural_illness_title">与神经系统，精神或与脑相关的疾病，眼或耳有问题，如：瘫痪，神经紧张，失明，失聪，晕眩或癫痫？ </string>
+    <string name="text_informationii_circle_illness_title">与循环系统，心脏或血液有关的疾病，如：心跳不正常，心杂音，胸部不适，血压不正常，中风或贫血？  </string>
 
     <string-array name="text_information_birth_year_choices">
         <item>1990</item>
@@ -189,10 +198,59 @@
         <item>5k~10k</item>
     </string-array>
 
+    <string-array name="text_informationii_smoking_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_accident_illness_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_medical_treatment_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_surgery_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_pregnancy_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_blood_illness_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_muscle_illness_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_neural_illness_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
+    <string-array name="text_informationii_circle_illness_choices">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+
     <string name="text_result_title">推荐方案：</string>
-    <string name="text_result_details_1">经济方案1：\n\n1) 百年人寿定期重疾险康惠保：保额30万，30年缴费，保至70周岁，年缴960元；\n2) 横琴人寿定期寿险优爱宝：保额30W，20年缴费，保至60周岁，年缴384元；\n3) 安联保险百万玫瑰女性意外身故：100万保额，意外医疗3万，免赔额500元，299元一年；\n4) 众安保险尊享e生2017百万医疗险：保额300万，1万免赔，226元一年。\n\n年缴合计：1869元\n\n投保思路：因为A小姐为在校学生年纪尚浅，暂未有经济负担和经济基础。终身型重疾险价格相对高昂，在考虑保险为金融消费品情况下。所以选择投保定期寿险和定期重疾险\n不足之处：保障年龄到60周岁，日后仍需加保终身型重疾</string>
-    <string name="text_result_details_2">快捷方案2：\n\n1) 华夏保险华夏福多倍（终身）多次赔付保额：30万\n附加险：医保通（质子重离子）+投保人轻重征豁免+住院医疗+安联意外险100万，年缴299元\n\n年缴合计：5928.79元\n\n投保思路 ：A女士有稳定经济收入来源，希望A小姐有一份保障之余。晚年可以存有一笔养老金，所以选择终身型重疾。A女士重疾或身故则无需再缴交保费，此外医保通在产品不停售前提下，保险公司不会因被保人身体情况而停止续保。\n不足之处：价格相对定期险种较贵，随着通货膨胀保额日后应相应增加。</string>
-    <string name="text_result_details_3">性价比方案3：\n\n1) 华夏保险华夏福多倍（终身）保额20万，附加险：医保通（质子重离子）+投保人轻重征豁免+住院医疗，共3853.73元；\n2) 百年人寿定期重疾险康惠保：保额30万，30年缴费，保至70周岁，年缴960元；3) 横琴人寿定期寿险优爱宝：保额30万，20年缴费，保至60周岁，年缴384元；4) 安联意外险：100万，年缴299元。\n\n年缴合计：5496.73元\n\n投保思路    ：因为被保人 A小姐年纪尚浅，故选择定期寿险、重疾搭配终身型险种。年缴费相对较少之余，A小姐最少有50W重疾保障、60W身故保障。晚年亦可保有一笔养老金，除此之外因保险产品推陈出新，日后可将定期险种 置换为新型终身产品。</string>
+    <string name="text_result_start">1、被保人年龄：28周岁\n2、被保人性别：女性\n3、被保人居住地：广东省广州\n4、被保人有社保\n5、被保人职业学生类别1 2类\n6、标准体\n7、未婚\n</string>
+    <string name="text_result_title_1">经济方案2：推荐指数：2星</string>
+    <string name="text_result_details_1">年缴合计：1869元\n投保思路：因为被保人从事教育行业且年纪尚浅，暂未有经济负担和经济基础。终身型重疾险价格相对高昂，在考虑保险为金融消费品情况下。所以选择投保定期寿险和定期重疾险\n不足之处：保障年龄到60周岁，日后仍需加保终身型重疾</string>
+    <string name="text_result_title_2">快捷方案2：推荐指数：2星</string>
+    <string name="text_result_details_2">年缴合计：5928.79元\n投保思路：投保人有稳定经济收入来源，希望被保人有一份保障之余。晚年可以存有一笔养老金，所以选择终身型重疾。投保人重疾或身故则无需再缴交保费，此外医保通在产品不停售前提下，保险公司不会因被保人身体情况而停止续保。\n不足之处：价格相对定期险种较贵，随着通货膨胀保额日后应相应增加\n</string>
+    <string name="text_result_title_3">性价比方案3：推荐指数：3星</string>
+    <string name="text_result_details_3">年缴合计：5496.73元投保思路：因为被保人年纪尚浅，故选择定期寿险、重疾搭配终身型险种。年缴费相对较少之余，最少有50万重疾保障、60万身故保障。晚年亦可保有一笔养老金，除此之外因保险产品推陈出新，日后可将定期险种置换为新型终身产品。</string>
 
     <string name="text_information_basic_title">请输入基本信息</string>
     <string name="text_information_basic_company_name_title">公司名称：</string>

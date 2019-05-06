@@ -48,6 +48,17 @@ public class ApplicationHaitunbang extends Application {
         public static String familyNumber;
         public static String monthlyIncome;
 
+        public static String smoking;
+        public static String accidentIllness;
+        public static String medicalTreatement;
+        public static String surgery;
+        public static String pregnancy;
+
+        public static String bloodIllness;
+        public static String muscleIllness;
+        public static String neuralIllness;
+        public static String circleIllness;
+
         // sharedbikes
         public static class MarketingAndFundingAnnuallyInfo {
             public String currentYear;

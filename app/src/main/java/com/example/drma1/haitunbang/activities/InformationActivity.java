@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import com.example.drma1.haitunbang.ApplicationHaitunbang;
@@ -40,7 +41,7 @@ public class InformationActivity extends Activity {
                         && writeEditTextIntoStorage(activity, R.id.text_information_height_edit, "text")
                         && writeEditTextIntoStorage(activity, R.id.text_information_weight_edit, "text")
                         && writeEditTextIntoStorage(activity, R.id.text_information_family_number_edit, "text")) {
-                    Intent intent = new Intent(activity, CalculatingActivity.class);
+                    Intent intent = new Intent(activity, InformationActivityII.class);
                     startActivity(intent);
                     activity.finish();
                 }

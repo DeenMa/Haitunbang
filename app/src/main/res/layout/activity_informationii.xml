@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/text_informationii_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/text_informationii_title"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view_information"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_information"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_informationii_smoking_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_smoking_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_smoking_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_accident_illness_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_accident_illness_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_accident_illness_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_medical_treatment_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_medical_treatment_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_medical_treatment_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_surgery_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_surgery_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_surgery_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_pregnancy_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_pregnancy_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_pregnancy_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_optional_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_optional_title"/>
+
+            <TextView
+                android:id="@+id/text_informationii_blood_illness_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_blood_illness_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_blood_illness_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_muscle_illness_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_muscle_illness_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_muscle_illness_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_neural_illness_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_neural_illness_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_neural_illness_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/text_informationii_circle_illness_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/text_informationii_circle_illness_title"/>
+
+            <Spinner
+                android:id="@+id/spinner_informationii_circle_illness_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_informationii_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next"
+        android:textColor="@color/white"
+        android:background="@color/blue"/>
+
+</LinearLayout>
